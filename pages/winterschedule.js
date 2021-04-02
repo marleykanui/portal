@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../../../../../styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 const UTPortal = () => {
@@ -91,17 +91,12 @@ const UTPortal = () => {
         <h4 className="listing">CLASS LISTING </h4>
         <div className="arrows">{">>"}</div>
       </div>
-      <h3 className="class2021">Class Listing Spring 2021</h3>
+      <h3 className="class2021">Class Listing Winter 2021</h3>
       <div className={styles.container}>
         <h6 className="aboveimage">Class Listing For: Ezgi Koca</h6>
-        <Image
-          className="scheduleimage"
-          src="/e-course-schedule.png"
-          alt="Course Work"
-          width={750}
-          height={250}
-        />
-        <h6>You are registered for 4 classes for 8 hours.</h6>
+        <h6 className="noclasses">
+          You Have No Classes Scheduled for Winter of 2021
+        </h6>
         <Link href="https://www.universitycoop.com/adoption-search">
           <a>
             <button className="textbookbutton">
@@ -130,11 +125,7 @@ const UTPortal = () => {
               </select>
             </div>
             <div className="classbtn">
-              <Link href="/winterschedule">
-                <a>
-                  <button>Get Class Listing</button>
-                </a>
-              </Link>
+              <button>Get Class Listing</button>
             </div>
           </div>
         </div>
