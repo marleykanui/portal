@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../../../../../styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 const UTPortal = () => {
@@ -91,29 +91,12 @@ const UTPortal = () => {
         <h4 className="listing">CLASS LISTING </h4>
         <div className="arrows">{">>"}</div>
       </div>
-      <h3 className="class2021">Class Listing Spring 2021</h3>
-      <div className={styles.container}>
+      <h3 className="class2021">Class Listing Winter 2021</h3>
+      <div className={styles.containerwinter}>
         <h6 className="aboveimage">Class Listing For: Marley Kanui</h6>
-        <Image
-          className="scheduleimage"
-          src="/e-course-schedule.png"
-          alt="Course Work"
-          width={750}
-          height={250}
-        />
-        <h6>You are registered for 3 classes for 9 hours.</h6>
-        <Link href="https://www.universitycoop.com/adoption-search">
-          <a>
-            <button className="textbookbutton">
-              <div className="btnwrap">
-                <div className="greenarrow">{">"}</div>
-                <div className="btntextwrap">
-                  <div>Look Up Textbooks & </div> <div>Compare Prices</div>
-                </div>
-              </div>
-            </button>
-          </a>
-        </Link>
+        <h6 className="noclasses">
+          You Have No Classes Scheduled for Winter of 2021
+        </h6>
       </div>
       <div className="semesterpicker">
         <div className="semcontainer">
@@ -130,7 +113,7 @@ const UTPortal = () => {
               </select>
             </div>
             <div className="classbtn">
-              <Link href="/winterschedulekanui">
+              <Link href="/marleykanui/utdirect/academics/classlisting/02397ekaf6spring">
                 <a>
                   <button>Get Class Listing</button>
                 </a>
