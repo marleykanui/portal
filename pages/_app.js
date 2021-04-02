@@ -1,4 +1,5 @@
 import Head from "next/head";
+import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -11,6 +12,11 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
           crossOrigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap"
+          rel="stylesheet"
         />
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

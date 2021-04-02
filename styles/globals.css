@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f2f6f7;
 }
 
 a {
@@ -13,4 +14,140 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0;
+  background-image: linear-gradient(to right, black, #bf5700);
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.routecontainer {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 0.7rem;
+}
+
+.class2021 {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  color: #6c94ae;
+}
+
+.direct,
+.academics,
+.listing {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  padding-top: 0.2rem;
+}
+
+.direct,
+.academics {
+  color: #6c94ae;
+}
+
+.listing {
+  color: gray;
+}
+.arrows {
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.aboveimage {
+  margin: 0;
+}
+
+.scheduleimage {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggler {
+  margin-right: 1.5rem;
+}
+
+.navbar-toggler-icon,
+.collapse,
+.navbar-nav,
+.navbar-toggler {
+  color: white;
+}
+.navbar {
+  box-shadow: 5px 7px 10px #888888;
+}
+
+.semesterpicker {
+  position: fixed;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  bottom: 2rem;
+}
+
+.textbookbutton {
+  margin-top: 2rem;
+  box-shadow: 1px 2px 5px 0px #899599;
+  background: linear-gradient(to bottom, #ffffff 5%, #bab1ba 100%);
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.btnwrap {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.greenarrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4c630a;
+  font-family: "Yatra One", cursive;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.btntextwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0.5rem;
+  align-items: center;
+}
+.semcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.selandbtn {
+  display: flex;
+  flex-direction: row;
+}
+
+.classbtn {
+  margin-left: 2rem;
 }
