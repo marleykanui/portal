@@ -29,12 +29,12 @@ const UTPortal = () => {
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
+                Home <span class="sr-only"></span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Link
+                My Courses
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -47,7 +47,7 @@ const UTPortal = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown
+                My Bookmarks
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">
@@ -63,9 +63,7 @@ const UTPortal = () => {
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">
-                Disabled
-              </a>
+              <a class="nav-link disabled" href="#"></a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
