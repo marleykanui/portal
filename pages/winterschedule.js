@@ -92,23 +92,11 @@ const UTPortal = () => {
         <div className="arrows">{">>"}</div>
       </div>
       <h3 className="class2021">Class Listing Winter 2021</h3>
-      <div className={styles.container}>
+      <div className={styles.containerwinter}>
         <h6 className="aboveimage">Class Listing For: Ezgi Koca</h6>
         <h6 className="noclasses">
           You Have No Classes Scheduled for Winter of 2021
         </h6>
-        <Link href="https://www.universitycoop.com/adoption-search">
-          <a>
-            <button className="textbookbutton">
-              <div className="btnwrap">
-                <div className="greenarrow">{">"}</div>
-                <div className="btntextwrap">
-                  <div>Look Up Textbooks & </div> <div>Compare Prices</div>
-                </div>
-              </div>
-            </button>
-          </a>
-        </Link>
       </div>
       <div className="semesterpicker">
         <div className="semcontainer">
