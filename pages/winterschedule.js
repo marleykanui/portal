@@ -125,7 +125,11 @@ const UTPortal = () => {
               </select>
             </div>
             <div className="classbtn">
-              <button>Get Class Listing</button>
+              <Link href="/ezgikoca/utdirect/academics/classlisting/09673yhsf5spring">
+                <a>
+                  <button>Get Class Listing</button>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
