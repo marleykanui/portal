@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../../../../../styles/Home.module.css";
 import Image from "next/image";
 const UTPortal = () => {
   return (
@@ -82,41 +82,41 @@ const UTPortal = () => {
           </form>
         </div>
       </nav>
-      <div classNameName="routecontainer">
-        <h4 classNameName="direct">UT DIRECT </h4>
-        <div classNameName="arrows">{">>"}</div>
-        <h4 classNameName="academics">ACADEMICS </h4>
-        <div classNameName="arrows">{">>"}</div>
-        <h4 classNameName="listing">className LISTING </h4>
-        <div classNameName="arrows">{">>"}</div>
+      <div className="routecontainer">
+        <h4 className="direct">UT DIRECT </h4>
+        <div className="arrows">{">>"}</div>
+        <h4 className="academics">ACADEMICS </h4>
+        <div className="arrows">{">>"}</div>
+        <h4 className="listing">CLASS LISTING </h4>
+        <div className="arrows">{">>"}</div>
       </div>
-      <h3 classNameName="className2021">className Listing Spring 2021</h3>
-      <div classNameName={styles.container}>
-        <h6 classNameName="aboveimage">className Listing For: Marley Kanui</h6>
+      <h3 className="class2021">Class Listing Spring 2021</h3>
+      <div className={styles.container}>
+        <h6 className="aboveimage">Class Listing For: Marley Kanui</h6>
         <Image
-          classNameName="scheduleimage"
+          className="scheduleimage"
           src="/course-work.png"
           alt="Course Work"
           width={750}
           height={250}
         />
-        <h6>You are registered for 3 classNamees for 9 hours.</h6>
-        <button classNameName="textbookbutton">
-          <div classNameName="btnwrap">
-            <div classNameName="greenarrow">{">"}</div>
-            <div classNameName="btntextwrap">
+        <h6>You are registered for 3 classes for 9 hours.</h6>
+        <button className="textbookbutton">
+          <div className="btnwrap">
+            <div className="greenarrow">{">"}</div>
+            <div className="btntextwrap">
               <div>Look Up Textbooks & </div> <div>Compare Prices</div>
             </div>
           </div>
         </button>
       </div>
-      <div classNameName="semesterpicker">
-        <div classNameName="semcontainer">
+      <div className="semesterpicker">
+        <div className="semcontainer">
           <div>
             <h6>Choose Semester:</h6>
           </div>
-          <div classNameName="selandbtn">
-            <div classNameName="options">
+          <div className="selandbtn">
+            <div className="options">
               <select>
                 <option value="0">Spring</option>
                 <option value="1">Summer</option>
@@ -124,8 +124,8 @@ const UTPortal = () => {
                 <option value="3">Winter</option>
               </select>
             </div>
-            <div classNameName="classNamebtn">
-              <button>Get className Listing</button>
+            <div className="classbtn">
+              <button>Get Class Listing</button>
             </div>
           </div>
         </div>
