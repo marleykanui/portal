@@ -96,7 +96,7 @@ const UTPortal = () => {
         <h6 className="aboveimage">Class Listing For: Marley Kanui</h6>
         <Image
           className="scheduleimage"
-          src="/e-course-schedule.png"
+          src="/course-work.png"
           alt="Course Work"
           width={750}
           height={250}
